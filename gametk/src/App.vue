@@ -21,8 +21,13 @@ import { RouterLink, RouterView } from 'vue-router'
       </nav>
     </div>
   </header> -->
-  <header class="w-screen px-4 py-4 absolute top-0">
+  <header class="w-screen px-4 py-4 top-0">
     <h1 class="text-2xl">Dungeon Quest Toolkit</h1>
+    <nav>
+      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/">Upload</RouterLink>
+      <RouterLink to="/inventory">My Inventory</RouterLink>
+    </nav>
   </header>
 
   <RouterView />
